@@ -5,10 +5,12 @@
 
 html {
     height: 100%;
+    border: 10px solid black;
+    border-radius: 3px;
 }
 
 body {
-    background-image: -webkit-linear-gradient(rgb(22, 138, 184) 20%, white, skyblue 80%);
+    background-image: -webkit-linear-gradient(rgb(103, 200, 239) 10%, rgb(173, 223, 211) 60%);
 }
 
 .container .row .col {
@@ -19,7 +21,7 @@ body {
 }
 
 nav {
-    background-image: -webkit-linear-gradient(rgb(56, 209, 209), skyblue 50%, rgb(56, 209, 209));
+    background-image: -webkit-linear-gradient(rgb(231, 189, 98), rgb(255, 255, 255) 50%, rgb(209, 143, 56));
     border: solid black .25px;
     border-radius: 5px;
     margin-bottom: 40px;
@@ -30,14 +32,16 @@ nav {
 
 h1 {
     text-align: center;
-    text-shadow: 5px 5px 10px white;
+    text-shadow: 5px 5px 30px white;
     font: 50px times;
     font-weight: 700;
 }
 
 h2 {
     text-align: center;
-    font: 20px times;
+    text-shadow: 5px 5px 20px white;
+    font: 15px times;
+    font-style: italic;
 }
 
 a:link {
