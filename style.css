@@ -8,9 +8,53 @@ html {
 }
 
 body {
-    background-image: -webkit-linear-gradient(blue, black);
+    background-image: -webkit-linear-gradient(rgb(22, 138, 184) 20%, white, skyblue 80%);
+}
+
+.container .row .col {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 15px;
+}
+
+nav {
+    background-image: -webkit-linear-gradient(rgb(56, 209, 209), skyblue 50%, rgb(56, 209, 209));
+    border: solid black .25px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font: 15px 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    font-weight: 1000;
 }
 
 h1 {
-    font: 70px impact;
+    text-align: center;
+    text-shadow: 5px 5px 10px white;
+    font: 50px times;
+    font-weight: 700;
+}
+
+h2 {
+    text-align: center;
+    font: 20px times;
+}
+
+a:link {
+    text-decoration: none;
+    display: inherit;
+}
+
+a:visited {
+    display: inherit;
+    color: inherit;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: darkblue;
+    font-style: italic;
 }
